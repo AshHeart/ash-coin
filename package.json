@@ -1,0 +1,31 @@
+{
+  "name": "ash-coin",
+  "version": "1.0.0",
+  "description": "My own take on the blokchain and crypto-cuurencies",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshHeart/ash-coin.git"
+  },
+  "keywords": [
+    "Crypto-currency",
+    "Blockchain"
+  ],
+  "author": "Ashweyth Sunil",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AshHeart/ash-coin/issues"
+  },
+  "homepage": "https://github.com/AshHeart/ash-coin#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "crypto-js": "^3.1.9-1",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.8"
+  }
+}
