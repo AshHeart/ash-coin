@@ -4,6 +4,8 @@ import SHA3 from "crypto-js/sha3"
 
 /**
  * Block governs the creation of a block to be added onto our blockchain
+ * 
+ * Represents a single transaction using our coin.
  */
 class Block {
     /**
@@ -38,7 +40,7 @@ class Block {
     /**
      * Mine a block to be added onto the blockchain
      * 
-     * @param {number} difficulty The mining difficulty, to limit the time to mine one block
+     * @param {number} miningDifficulty The mining difficulty, to limit the time to mine one block
      */
     mineBlock(miningDifficulty)
     {
