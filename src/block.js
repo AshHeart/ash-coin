@@ -3,6 +3,8 @@
 import SHA3 from "crypto-js/sha3"
 
 /**
+ * @class
+ * 
  * Block governs the creation of a block to be added onto our blockchain
  * 
  * Represents a single transaction using our coin.
@@ -50,7 +52,7 @@ class Block {
             this.hash = this.calcHash()
         }
 
-        console.log("\nBlock Mined with hash: " + this.hash + "\n")
+        console.log("Block Mined with hash: " + this.hash)
     }
 }
 
